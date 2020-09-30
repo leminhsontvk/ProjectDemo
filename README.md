@@ -10,4 +10,6 @@
   3. QRoom Demo: http://demo.lmsq.vn
      - TK: Jeremy
      - Pass: 12345678
+     
+ #Close After 10/10/2020
   
