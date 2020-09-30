@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Themes/CSS/Style.css" rel="stylesheet" type="text/css">
+    <link href="Themes/Slick/slick.css">
+    <link href="Themes/Slick/slick-theme.css">
+    <!-- Module JS -->
+    <script src="Themes/JS/JQuery.js"></script>
+    <script src="Themes/JS/Materialize.js"></script>
+    <!-- Custom JS -->
+    <script src="Themes/JS/QGarden.js"></script>
+    <title>Home</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="qgarden-header-top padding-bottom-10 padding-top-10">
+            <div class="flex-box align-items-center">
+                <div class="social-icons">
+                    <ul class="social-icons-small">
+                        <li>
+                            <span class="follow-us-text">Theo dõi chúng tôi:</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="user-account">
+                    <a href="#">Đăng Nhập hoặc Đăng Ký</a>
+                </div>
+            </div>
+        </div>
+        <div class="qgarden-search-box padding-bottom-25 padding-top-25">
+            <div class="flex-box align-items-center">
+                <div class="logo">
+                    <a href="#">
+                        <img src="Themes/Images/Default/Logo.png" width="140px" height="40px">
+                    </a>
+                </div>
+                <div class="search-box align-items-center">
+                    <form class="flex-box">
+                        <input type="text" placeholder="Bạn tìm gì...">
+                        <button type="button">
+                            <i class="far fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="cart-container align-items-center">
+                    <div class="cart-box">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                            <span>20</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="nav-box">
+    <div class="container">
+        <ul>
+            <li class="active">
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li class="menu-has-submenu">
+                <a href="index.html">Sản Phẩm</a>
+                <ul>
+                    <li>
+                        <a href="#">Sản Phẩm 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Sản Phẩm 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Sản Phẩm 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li>
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li>
+                <a href="index.html">Trang Chủ</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <section class="QGCart margin-top-40">
+        <div class="cart-table-container">
+            <div class="cart-table margin-bottom-40">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th class="pro-thumbnail">Image</th>
+                        <th class="pro-title">Product</th>
+                        <th class="pro-price">Price</th>
+                        <th class="pro-quantity">Quantity</th>
+                        <th class="pro-subtotal">Total</th>
+                        <th class="pro-remove">Remove</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="pro-thumbnail">
+                            <a href="single-product.html">
+                                <img src="Themes/Images/Products/Product1.jpg" alt="Product">
+                            </a>
+                        </td>
+                        <td class="pro-title">
+                            <a href="#">Xương Rồng Đá</a>
+                        </td>
+                        <td class="pro-price">
+                            <span id="pro-price" qgdata="500000">VNĐ 500.000</span>
+                        </td>
+                        <td class="pro-quantity">
+                            <div class="pro-qty">
+                                <input type="text" id="cart-qty-value" value="1">
+                                <a id="cart-qty-inc" class="inc qty-btn">+</a>
+                                <a id="cart-qty-dec" class="dec qty-btn">-</a>
+                            </div>
+                        </td>
+                        <td class="pro-subtotal">
+                            <span id="total-price" qgdata="500000">VNĐ 500.000</span>
+                        </td>
+                        <td class="pro-remove">
+                            <a href="#">
+                                <i class="fal fa-trash-alt"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pro-thumbnail">
+                            <a href="single-product.html">
+                                <img src="Themes/Images/Products/Product1.jpg" alt="Product">
+                            </a>
+                        </td>
+                        <td class="pro-title">
+                            <a href="#">Xương Rồng Đá</a>
+                        </td>
+                        <td class="pro-price">
+                            <span id="pro-price" qgdata="500000">VNĐ 500.000</span>
+                        </td>
+                        <td class="pro-quantity">
+                            <div class="pro-qty">
+                                <input type="text" id="qty-value" value="1">
+                                <a href="#" id="qty-inc" class="inc qty-btn">+</a>
+                                <a href="#" id="qty-dec" class="dec qty-btn">-</a>
+                            </div>
+                        </td>
+                        <td class="pro-subtotal">
+                            <span id="total-price" qgdata="500000">VNĐ 500.000</span>
+                        </td>
+                        <td class="pro-remove">
+                            <a href="#">
+                                <i class="fal fa-trash-alt"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pro-thumbnail">
+                            <a href="single-product.html">
+                                <img src="Themes/Images/Products/Product1.jpg" alt="Product">
+                            </a>
+                        </td>
+                        <td class="pro-title">
+                            <a href="#">Xương Rồng Đá</a>
+                        </td>
+                        <td class="pro-price">
+                            <span id="pro-price" qgdata="500000">VNĐ 500.000</span>
+                        </td>
+                        <td class="pro-quantity">
+                            <div class="pro-qty">
+                                <input type="text" id="qty-value" value="1">
+                                <a href="#" id="qty-inc" class="inc qty-btn">+</a>
+                                <a href="#" id="qty-dec" class="dec qty-btn">-</a>
+                            </div>
+                        </td>
+                        <td class="pro-subtotal">
+                            <span id="total-price" qgdata="500000">VNĐ 500.000</span>
+                        </td>
+                        <td class="pro-remove">
+                            <a href="#">
+                                <i class="fal fa-trash-alt"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <div class="cart-summary-content">
+                <h4>Cart Summary</h4>
+                <p>Sub Total <span>VNĐ 1.500.000</span></p>
+                <p>Shipping Cost <span>$00.00</span></p>
+                <form>
+                    <input type="text" placeholder="Coupon Code">
+                    <button type="submit">Apply Code</button>
+                </form>
+                <h2>Grand Total <span>VNĐ 1.500.000</span></h2>
+            </div>
+            <div class="cart-summary-button">
+                <button class="checkout-btn">Checkout</button>
+                <button class="update-btn">Update Cart</button>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <footer class="margin-top-20 padding-top-20 border-top">
+        <div class="footer-widget">
+            <div class="footer-logo">
+                <img src="Themes/Images/Default/LogoFooter.png" width="140px" height="40px">
+            </div>
+            <div class="footer-address">
+                <h5 class="footer-block-title">Trụ Sở Tập Đoàn</h5>
+                <p class="footer-block-content">The Luxury, Vinhomes Golden River</p>
+            </div>
+            <div class="footer-phone">
+                <h5 class="footer-block-title">Cần Trợ Giúp?</h5>
+                <p class="footer-block-content">Vui lòng gọi: 1-800-148-2010</p>
+            </div>
+            <div class="footer-icon">
+                <ul>
+                    <li>
+                        <a class="icon-fb" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon-ig" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon-yt" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-widget">
+            <h4 class="footer-widget-title">
+                <a href="#">Follow on instagram</a>
+            </h4>
+            <div class="ig-image-container">
+                <a href="">
+                    <img src="Themes/Images/Footer/IG1.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG2.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG3.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG4.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG5.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG9.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG7.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG8.jpg">
+                </a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="footer-widget">
+            <h4 class="footer-widget-title">
+                <a href="#">Information</a>
+            </h4>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Gift Certificates</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Affiliate</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="copyright">
+            <p>Copyright © <span id="Year"></span> <a href="#">QGarden - LMSQ Group</a>. All Right Reserved.</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

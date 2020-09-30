@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Themes/CSS/Style.css" rel="stylesheet" type="text/css">
+    <!-- Module JS -->
+    <script src="../Themes/JS/JQuery.js"></script>
+    <script src="../Themes/JS/Materialize.js"></script>
+    <!-- Custom JS -->
+    <script src="../Themes/JS/QGarden.js"></script>
+    <script src="QGarden/Admin.js"></script>
+    <title>QGarden - The Admin</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="qgarden-header-top padding-bottom-10 padding-top-10">
+            <div class="flex-box align-items-center">
+                <div class="social-icons">
+                </div>
+                <div class="user-account">
+                    <a href="#">Đăng Nhập hoặc Đăng Ký</a>
+                </div>
+            </div>
+        </div>
+        <div class="qgarden-search-box padding-bottom-25 padding-top-25">
+            <div style="justify-content: flex-start;" class="flex-box align-items-center">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../Themes/Images/Default/Logo.png" width="140px" height="40px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="nav-box">
+    <div class="container">
+        <ul>
+            <li>
+                <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="index.html">Products</a>
+            </li>
+            <li>
+                <a href="index.html">Category</a>
+            </li>
+            <li>
+                <a href="index.html">Users</a>
+            </li>
+            <li>
+                <a href="index.html">Coupons</a>
+            </li>
+            <li>
+                <a href="index.html">Bills</a>
+            </li>
+            <li>
+                <a href="index.html">Marketing</a>
+            </li>
+            <li>
+                <a href="index.html">SiteInfo</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="cart-table-container margin-top-40">
+        <div class="title margin-bottom-20">
+            <h2>
+                Danh mục sản phẩm
+            </h2>
+        </div>
+        <form class="margin-bottom-20">
+            <input type="hidden" value="" id="">
+            <div class="form-mid-box margin-bottom-20">
+            <label for="CategoryName">
+                Tên sản phẩm
+            </label>
+            <input type="text" value="" id="CategoryName">
+        </div>
+            <div class="form-mid-box margin-bottom-20">
+                <label for="CategoryName">
+                    Danh mục
+                </label>
+                <select>
+                    <option>Danh Mục A</option>
+                    <option>Danh Mục A</option>
+                    <option>Danh Mục A</option>
+                    <option>Danh Mục A</option>
+                </select>
+            </div>
+            <div class="form-mid-box margin-bottom-20">
+                <label for="CategoryName">
+                    Giá sản phẩm
+                </label>
+                <input type="text" value="" id="CategoryName">
+            </div>
+            <div class="form-mid-box margin-bottom-20">
+                <label for="CategoryName">
+                    Giảm giá (%)
+                </label>
+                <input type="text" value="" id="CategoryName">
+            </div>
+            <div class="form-mid-box margin-bottom-20">
+                <label for="CategoryName">
+                    Còn trong kho
+                </label>
+                <input type="text" value="" id="CategoryName">
+            </div>
+            <div class="form-mid-box margin-bottom-20">
+                <label for="btn-avatar">
+                    Danh sách ảnh sản phẩm
+                </label>
+                <button id="btn-category-image" class="btn-upload">Chọn Ảnh Mới</button>
+                <input id="input-category-image" type="file" accept="image/*" style="display: none" name="UserAvatar" multiple>
+            </div>
+            <button id="DoCategoryEdit" class="checkout-btn">Sửa</button>
+            <div class="clearfix"></div>
+        </form>
+        <div class="cart-table margin-bottom-20">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th class="pro-title">STT</th>
+                    <th class="pro-title">Ảnh mô tả</th>
+                    <th class="pro-title">Tên sản phẩm</th>
+                    <th class="pro-title">Danh mục</th>
+                    <th class="pro-title">Giá</th>
+                    <th class="pro-title">Đánh giá đạt</th>
+                    <th class="pro-title">Giảm giá (%)</th>
+                    <th class="pro-title">Tồn Kho</th>
+                    <th class="product-title">Thao tác</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td class="pro-title">
+                        <span>3</span>
+                    </td>
+                    <td class="pro-thumbnail">
+                        <a>
+                            <img src="../Themes/Images/Products/QGC001.jpg" alt="Product">
+                        </a>
+                    </td>
+                    <td class="pro-subtotal">
+                        <span>Tên danh mục</span>
+                    </td>
+                    <td class="pro-title">
+                        <span>6</span>
+                    </td>
+                    <td class="pro-title">
+                        <span>VNĐ 20.000.000</span>
+                    </td>
+                    <td class="pro-title">
+                        <span>6</span>
+                    </td>
+                    <td class="pro-title">
+                        <span>Tên danh mục</span>
+                    </td>
+                    <td class="pro-title">
+                        <span>6</span>
+                    </td>
+                    <td class="pro-action">
+                        <input type="hidden" value="1" id="CategoryID">
+                        <a class="a-danger" id="DeleteCategory" value="1">
+                            <i class="fal fa-trash-alt"></i>
+                        </a>
+                        <tab></tab>
+                        <a id="EditCategory" value="1">
+                            <i class="fal fa-edit"></i>
+                        </a>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer style="min-height: unset" class="margin-top-20 padding-top-20">
+        <div class="clearfix"></div>
+        <div class="copyright">
+            <p>Copyright © <span id="Year"></span> <a href="#">QGarden - LMSQ Group</a>. All Right Reserved.</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

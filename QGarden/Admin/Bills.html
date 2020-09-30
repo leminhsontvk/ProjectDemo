@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Themes/CSS/Style.css" rel="stylesheet" type="text/css">
+    <!-- Module JS -->
+    <script src="../Themes/JS/JQuery.js"></script>
+    <script src="../Themes/JS/Materialize.js"></script>
+    <!-- Custom JS -->
+    <script src="../Themes/JS/QGarden.js"></script>
+    <script src="QGarden/Admin.js"></script>
+    <title>QGarden - The Admin</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="qgarden-header-top padding-bottom-10 padding-top-10">
+            <div class="flex-box align-items-center">
+                <div class="social-icons">
+                </div>
+                <div class="user-account">
+                    <a href="#">Đăng Nhập hoặc Đăng Ký</a>
+                </div>
+            </div>
+        </div>
+        <div class="qgarden-search-box padding-bottom-25 padding-top-25">
+            <div style="justify-content: flex-start;" class="flex-box align-items-center">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../Themes/Images/Default/Logo.png" width="140px" height="40px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="nav-box">
+    <div class="container">
+        <ul>
+            <li>
+                <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="index.html">Products</a>
+            </li>
+            <li>
+                <a href="index.html">Category</a>
+            </li>
+            <li>
+                <a href="index.html">Users</a>
+            </li>
+            <li>
+                <a href="index.html">Coupons</a>
+            </li>
+            <li>
+                <a href="index.html">Bills</a>
+            </li>
+            <li>
+                <a href="index.html">Marketing</a>
+            </li>
+            <li>
+                <a href="index.html">SiteInfo</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="cart-table-container margin-top-40">
+        <div class="title margin-bottom-20">
+            <h2>
+                Liên hệ từ khách hàng
+            </h2>
+        </div>
+        <form class="hidden margin-bottom-20" enctype="multipart/form-data">
+            <div class="form-full-box margin-bottom-20">
+                <label for="btn-avatar">
+                    Ảnh banner
+                </label>
+                <button id="btn-category-image" class="btn-upload">Chọn Ảnh Mới</button>
+                <input id="input-category-image" type="file" accept="image/*" style="display: none" name="Banner">
+            </div>
+            <button id="DoAddBanner" class="checkout-btn">Thêm</button>
+            <div class="clearfix"></div>
+        </form>
+        <div class="cart-table margin-bottom-20">
+            <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th class="pro-title">Banner ID</th>
+                    <th>Ảnh Mô Tả</th>
+                    <th>Trạng Thái</th>
+                    <th>Thao Tác</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td class="pro-title">
+                        <span>1</span>
+                    </td>
+                    <td class="pro-subtotal">
+                        <span>Lê Minh Sơn</span>
+                    </td>
+                    <td class="pro-subtotal">
+                        <span>12/12/2019</span>
+                    </td>
+                    <td class="pro-action">
+                        <input type="hidden" value="1" title="Xóa Hóa Đơn" id="ContactID">
+                        <a class="a-danger" id="DeleteBanner" value="1">
+                            <i class="fal fa-trash-alt"></i>
+                        </a>
+                        <tab></tab>
+                        <a id="SetUnactive" title="Hủy Hóa Đơn" value="1">
+                            <i class="fal fa-times-circle"></i>
+                        </a>
+                        <tab></tab>
+                        <a id="SetActive" title="Hủy Hóa Đơn" value="1">
+                            <i class="fal fa-check-circle"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer style="min-height: unset" class="margin-top-20 padding-top-20">
+        <div class="clearfix"></div>
+        <div class="copyright">
+            <p>Copyright © <span id="Year"></span> <a href="#">QGarden - LMSQ Group</a>. All Right Reserved.</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

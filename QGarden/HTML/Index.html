@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Themes/CSS/Style.css" rel="stylesheet" type="text/css">
+    <!-- Module JS -->
+    <script src="Themes/JS/JQuery.js"></script>
+    <script src="Themes/JS/Materialize.js"></script>
+    <!-- Custom JS -->
+    <script src="Themes/JS/QGarden.js"></script>
+    <title>QGarden - For Your Own Green</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="qgarden-header-top padding-bottom-10 padding-top-10">
+            <div class="flex-box align-items-center">
+                <div class="social-icons">
+                    <ul class="social-icons-small">
+                        <li>
+                            <span class="follow-us-text">Theo dõi chúng tôi:</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="user-account">
+                    <a href="#">Đăng Nhập hoặc Đăng Ký</a>
+                </div>
+            </div>
+        </div>
+        <div class="qgarden-search-box padding-bottom-25 padding-top-25">
+            <div class="flex-box align-items-center">
+                <div class="logo">
+                    <a href="#">
+                        <img src="Themes/Images/Default/Logo.png" width="140px" height="40px">
+                    </a>
+                </div>
+                <div class="search-box align-items-center">
+                    <form class="flex-box">
+                        <input type="text" placeholder="Bạn tìm gì...">
+                        <button type="button">
+                            <i class="far fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="cart-container align-items-center">
+                    <div class="cart-box">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                            <span>20</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="nav-box">
+    <div class="container">
+        <ul>
+            <li class="active">
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li class="menu-has-submenu">
+                <a href="index.html">Sản Phẩm</a>
+                <ul>
+                    <li>
+                        <a href="#">Sản Phẩm 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Sản Phẩm 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Sản Phẩm 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li>
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li>
+                <a href="index.html">Trang Chủ</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <section class="Banner margin-bottom-40">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="Themes/Images/Banner/BannerB1.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                    </div>
+                </li>
+                <li>
+                    <img src="Themes/Images/Banner/BannerB2.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                    </div>
+                </li>
+                <li>
+                    <img src="Themes/Images/Banner/BannerB3.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="Mini-Banner margin-bottom-40">
+        <div class="mini-left">
+            <a href="#">
+                <img src="Themes/Images/Banner/BannerM1.jpg">
+            </a>
+            <div class="mini-info">
+                <p class="title-light">
+                    Sản phẩm mới nhập
+                </p>
+                <p class="title-bold">
+                    Xương Rồng Mini
+                </p>
+                <p class="price">
+                    Chỉ Từ
+                    <span class="price-amount">
+                        VNĐ 500.000
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="mini-right">
+            <a href="#">
+                <img src="Themes/Images/Banner/BannerM2.jpg">
+            </a>
+            <div class="mini-info">
+                <p class="title-light">
+                    Sản phẩm mới nhập
+                </p>
+                <p class="title-bold">
+                    Xương Rồng Mini
+                </p>
+                <p class="price">
+                    Chỉ Từ
+                    <span class="price-amount">
+                        VNĐ 500.000
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="QGFlash-Sale margin-bottom-20">
+        <div class="title margin-bottom-20">
+            <h2>
+                Test Title
+            </h2>
+        </div>
+        <div class="product-container">
+            <div class="product-img">
+                <span class="discount-label">-20%</span>
+                <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                <span class="sale"></span>
+                <div class="product-icon-hover">
+                    <div class="icon-position">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-eye"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="product-detail">
+                <div class="detail-title">
+                    Xương Rồng Đá
+                </div>
+                <div class="detail-rated-star">
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="detail-price">
+                    <span class="price-amount-mini">VNĐ 250.000</span>
+                    <span class="price-before-sale">VNĐ 500.000</span>
+                </div>
+                <div class="add-cart-icon">
+                    <a href="#">
+                        <i class="far fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product-img">
+                <span class="discount-label">-20%</span>
+                <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                <span class="sale"></span>
+                <div class="product-icon-hover">
+                    <div class="icon-position">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-eye"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="product-detail">
+                <div class="detail-title">
+                    Xương Rồng Đá
+                </div>
+                <div class="detail-rated-star">
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="detail-price">
+                    <span class="price-amount-mini">VNĐ 250.000</span>
+                    <span class="price-before-sale">VNĐ 500.000</span>
+                </div>
+                <div class="add-cart-icon">
+                    <a href="#">
+                        <i class="far fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product-img">
+                <span class="discount-label">-20%</span>
+                <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                <span class="sale"></span>
+                <div class="product-icon-hover">
+                    <div class="icon-position">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-eye"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="product-detail">
+                <div class="detail-title">
+                    Xương Rồng Đá
+                </div>
+                <div class="detail-rated-star">
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="detail-price">
+                    <span class="price-amount-mini">VNĐ 250.000</span>
+                    <span class="price-before-sale">VNĐ 500.000</span>
+                </div>
+                <div class="add-cart-icon">
+                    <a href="#">
+                        <i class="far fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product-img">
+                <span class="discount-label">-20%</span>
+                <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                <span class="sale"></span>
+                <div class="product-icon-hover">
+                    <div class="icon-position">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-eye"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fal fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="product-detail">
+                <div class="detail-title">
+                    Xương Rồng Đá
+                </div>
+                <div class="detail-rated-star">
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star fill"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="detail-price">
+                    <span class="price-amount-mini">VNĐ 250.000</span>
+                    <span class="price-before-sale">VNĐ 500.000</span>
+                </div>
+                <div class="add-cart-icon">
+                    <a href="#">
+                        <i class="far fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <section class="QGBig-Banner margin-bottom-40">
+        <div class="banner-content">
+            <div class="full-content">
+                <h5>special offer</h5>
+                <h4>SUCCULENT GARDEN</h4>
+                <h3>GIFT BOXES</h3>
+                <p>
+                    From planter materials to style options, discover which planter is best for your space.
+                </p>
+                <a href="#" class="button-link">Explore The Shop</a>
+            </div>
+        </div>
+        <div class="banner-link">
+            <a href="#">
+                <img src="Themes/Images/Banner/BannerBIG1.jpg">
+            </a>
+        </div>
+    </section>
+    <section class="QGNewProduct margin-bottom-20">
+        <div class="title margin-bottom-20">
+            <h2>
+                Test Title
+            </h2>
+        </div>
+        <div class="new-product-banner">
+            <a href="#"><img src="Themes/Images/Banner/BannerNewProduct.jpg"></a>
+        </div>
+        <div class="new-product">
+            <div class="product-container">
+                <div class="product-img">
+                    <span class="discount-label">-20%</span>
+                    <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                    <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                    <span class="sale"></span>
+                    <div class="product-icon-hover">
+                        <div class="icon-position">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="product-detail">
+                    <div class="detail-title">
+                        Xương Rồng Đá
+                    </div>
+                    <div class="detail-rated-star">
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="detail-price">
+                        <span class="price-amount-mini">VNĐ 250.000</span>
+                        <span class="price-before-sale">VNĐ 500.000</span>
+                    </div>
+                    <div class="add-cart-icon">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product-img">
+                    <span class="discount-label">-20%</span>
+                    <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                    <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                    <span class="sale"></span>
+                    <div class="product-icon-hover">
+                        <div class="icon-position">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="product-detail">
+                    <div class="detail-title">
+                        Xương Rồng Đá
+                    </div>
+                    <div class="detail-rated-star">
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="detail-price">
+                        <span class="price-amount-mini">VNĐ 250.000</span>
+                        <span class="price-before-sale">VNĐ 500.000</span>
+                    </div>
+                    <div class="add-cart-icon">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product-img">
+                    <span class="discount-label">-20%</span>
+                    <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                    <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                    <span class="sale"></span>
+                    <div class="product-icon-hover">
+                        <div class="icon-position">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="product-detail">
+                    <div class="detail-title">
+                        Xương Rồng Đá
+                    </div>
+                    <div class="detail-rated-star">
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="detail-price">
+                        <span class="price-amount-mini">VNĐ 250.000</span>
+                        <span class="price-before-sale">VNĐ 500.000</span>
+                    </div>
+                    <div class="add-cart-icon">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product-img">
+                    <span class="discount-label">-20%</span>
+                    <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                    <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                    <span class="sale"></span>
+                    <div class="product-icon-hover">
+                        <div class="icon-position">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="product-detail">
+                    <div class="detail-title">
+                        Xương Rồng Đá
+                    </div>
+                    <div class="detail-rated-star">
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="detail-price">
+                        <span class="price-amount-mini">VNĐ 250.000</span>
+                        <span class="price-before-sale">VNĐ 500.000</span>
+                    </div>
+                    <div class="add-cart-icon">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product-img">
+                    <span class="discount-label">-20%</span>
+                    <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                    <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                    <span class="sale"></span>
+                    <div class="product-icon-hover">
+                        <div class="icon-position">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="product-detail">
+                    <div class="detail-title">
+                        Xương Rồng Đá
+                    </div>
+                    <div class="detail-rated-star">
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="detail-price">
+                        <span class="price-amount-mini">VNĐ 250.000</span>
+                        <span class="price-before-sale">VNĐ 500.000</span>
+                    </div>
+                    <div class="add-cart-icon">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product-img">
+                    <span class="discount-label">-20%</span>
+                    <img id="img1" src="Themes/Images/Products/Product1.jpg" style="z-index: 1">
+                    <img id="img2" src="Themes/Images/Products/Product2.jpg" style="z-index: 2">
+                    <span class="sale"></span>
+                    <div class="product-icon-hover">
+                        <div class="icon-position">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="product-detail">
+                    <div class="detail-title">
+                        Xương Rồng Đá
+                    </div>
+                    <div class="detail-rated-star">
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star fill"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="detail-price">
+                        <span class="price-amount-mini">VNĐ 250.000</span>
+                        <span class="price-before-sale">VNĐ 500.000</span>
+                    </div>
+                    <div class="add-cart-icon">
+                        <a href="#">
+                            <i class="far fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <section class="QGCategory margin-bottom-40">
+        <div class="title margin-bottom-20">
+            <h2>
+                Test Title
+            </h2>
+        </div>
+        <div class="product-container">
+        <div class="product-img no-hover">
+            <img id="img1" src="Themes/Images/Category/CategoryID1.jpg">
+            <div class="category-img-info">
+                <h5 class="category-title">
+                    <a href="#">HOUSE PLANTS</a>
+                </h5>
+                <p class="quantity">8 products</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+        <div class="product-container">
+            <div class="product-img no-hover">
+                <img id="img1" src="Themes/Images/Category/CategoryID1.jpg">
+                <div class="category-img-info">
+                    <h5 class="category-title">
+                        <a href="#">HOUSE PLANTS</a>
+                    </h5>
+                    <p class="quantity">8 products</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="product-container">
+            <div class="product-img no-hover">
+                <img id="img1" src="Themes/Images/Category/CategoryID1.jpg">
+                <div class="category-img-info">
+                    <h5 class="category-title">
+                        <a href="#">HOUSE PLANTS</a>
+                    </h5>
+                    <p class="quantity">8 products</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="product-container">
+            <div class="product-img no-hover">
+                <img id="img1" src="Themes/Images/Category/CategoryID1.jpg">
+                <div class="category-img-info">
+                    <h5 class="category-title">
+                        <a href="#">HOUSE PLANTS</a>
+                    </h5>
+                    <p class="quantity">8 products</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <section class="QGNews padding-bottom-20 border-bottom">
+        <div class="title margin-bottom-20">
+            <h2>
+                Test Title
+            </h2>
+        </div>
+        <div class="news-container">
+            <div class="news-img">
+                <a href="#">
+                    <img src="Themes/Images/News/NewsID1.jpg">
+                </a>
+            </div>
+            <div class="news-info">
+                <h3 class="post-title">
+                    <a href="#">Bromeliad Mount Care: How to Water and Care for Mounted Bromeliads</a>
+                </h3>
+                <div class="post-meta">
+                    <p class="author-name">by <span>HasTech</span></p>
+                    <p class="post-date">30 Oct, 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="news-container">
+            <div class="news-img">
+                <a href="#">
+                    <img src="Themes/Images/News/NewsID1.jpg">
+                </a>
+            </div>
+            <div class="news-info">
+                <h3 class="post-title">
+                    <a href="#">Bromeliad Mount Care: How to Water and Care for Mounted Bromeliads</a>
+                </h3>
+                <div class="post-meta">
+                    <p class="author-name">by <span>HasTech</span></p>
+                    <p class="post-date">30 Oct, 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="news-container">
+            <div class="news-img">
+                <a href="#">
+                    <img src="Themes/Images/News/NewsID1.jpg">
+                </a>
+            </div>
+            <div class="news-info">
+                <h3 class="post-title">
+                    <a href="#">Bromeliad Mount Care: How to Water and Care for Mounted Bromeliads</a>
+                </h3>
+                <div class="post-meta">
+                    <p class="author-name">by <span>HasTech</span></p>
+                    <p class="post-date">30 Oct, 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <section class="QGSubscribe margin-top-40 padding-bottom-20">
+        <div class="sub-container">
+            <div class="sub-info">
+                <h5>Subscribe newsletter to get updated</h5>
+                <p>We’ll never share your email address with a third-party.</p>
+            </div>
+            <div class="sub-form">
+                <form class="flex-box">
+                    <input type="email" placeholder="Enter your email address here ..." name="Mail">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <footer class="margin-top-20 padding-top-20 border-top">
+        <div class="footer-widget">
+            <div class="footer-logo">
+                <img src="Themes/Images/Default/LogoFooter.png" width="140px" height="40px">
+            </div>
+            <div class="footer-address">
+                <h5 class="footer-block-title">Trụ Sở Tập Đoàn</h5>
+                <p class="footer-block-content">The Luxury, Vinhomes Golden River</p>
+            </div>
+            <div class="footer-phone">
+                <h5 class="footer-block-title">Cần Trợ Giúp?</h5>
+                <p class="footer-block-content">Vui lòng gọi: 1-800-148-2010</p>
+            </div>
+            <div class="footer-icon">
+                <ul>
+                    <li>
+                        <a class="icon-fb" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon-ig" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon-yt" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-widget">
+            <h4 class="footer-widget-title">
+                <a href="#">Follow on instagram</a>
+            </h4>
+            <div class="ig-image-container">
+                <a href="">
+                    <img src="Themes/Images/Footer/IG1.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG2.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG3.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG4.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG5.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG9.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG7.jpg">
+                </a>
+                <a href="">
+                    <img src="Themes/Images/Footer/IG8.jpg">
+                </a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="footer-widget">
+            <h4 class="footer-widget-title">
+                <a href="#">Information</a>
+            </h4>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Gift Certificates</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Affiliate</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="copyright">
+            <p>Copyright © <span id="Year"></span> <a href="#">QGarden - LMSQ Group</a>. All Right Reserved.</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

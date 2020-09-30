@@ -1,0 +1,8 @@
+-- Remove SubCategory Table
+-- Change CategoryURI -> NULL DEFAULT NULL
+-- Change CategoryTotalProduct -> NULL DEFAULT 0
+-- Remove ProductSubCategory in Products Table
+-- Add New Trigger Decrease_Bill_Total_Product
+-- Add New Column CommentCreatedDate In Table Comments
+-- Remove From Products, BillDetail ProductType ProductSize ProductColor
+-- Remove From BillDetail BillInfromNote.

@@ -1,0 +1,280 @@
+
+--------------
+Error Date: 19-12-2019 01:08:31
+Error In: 
+Error Message: 
+Variable JSON: Array
+(
+    [UserLogin] => Jeremy
+    [Token] => beacd15422ce3543f1da424233ed7fee8841d4ff9ac6d682c7266cac652237fd
+    [HashKey] => 1576717146
+    [ServerKey] => e11b015a5d763d282bf7902a08cfc991b52f70298b75827d8c17308e88c40138
+)
+
+--------------
+Error Date: 19-12-2019 01:08:55
+Error In: 
+Error Message: 
+Variable JSON: Array
+(
+    [UserLogin] => Jeremy
+    [Token] => beacd15422ce3543f1da424233ed7fee8841d4ff9ac6d682c7266cac652237fd
+    [HashKey] => 1576717146
+    [ServerKey] => e11b015a5d763d282bf7902a08cfc991b52f70298b75827d8c17308e88c40138
+)
+
+--------------
+Error Date: 19-12-2019 01:16:02
+Error In: 
+Error Message: 
+Variable JSON: Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+            [Login] => karry2811
+            [Password] => SonViet@0104
+            [Action] => Login
+            [SavePortal] => on
+        )
+
+    [_COOKIE] => Array
+        (
+            [Webstorm-8c32df20] => dc7bbcf7-79cb-434b-a2b8-c4c31280e085
+            [XDEBUG_SESSION] => XDEBUG_ECLIPSE
+            [uchome_auth] => 2488Pg5d5K8X7rHZoBVoe5aRWZT/RPfYIhLo1RDtNb0g58Rx7dLUqCV+byU3gXsuXeHyI9W/aGDHF0pLfICr
+            [PHPSESSID] => m0iu9tgjmc7c94mf25u35gaer5
+        )
+
+    [_SERVER] => Array
+        (
+            [HTTP_HOST] => localhost
+            [HTTP_CONNECTION] => keep-alive
+            [CONTENT_LENGTH] => 449
+            [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+            [HTTP_ORIGIN] => http://localhost
+            [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+            [HTTP_DNT] => 1
+            [CONTENT_TYPE] => multipart/form-data; boundary=----WebKitFormBoundaryeglDkB38HfArfFBg
+            [HTTP_SEC_FETCH_SITE] => same-origin
+            [HTTP_SEC_FETCH_MODE] => cors
+            [HTTP_REFERER] => http://localhost/PRO1/?QGPage=Login
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+            [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7
+            [HTTP_COOKIE] => Webstorm-8c32df20=dc7bbcf7-79cb-434b-a2b8-c4c31280e085; XDEBUG_SESSION=XDEBUG_ECLIPSE; uchome_auth=2488Pg5d5K8X7rHZoBVoe5aRWZT%2FRPfYIhLo1RDtNb0g58Rx7dLUqCV%2BbyU3gXsuXeHyI9W%2FaGDHF0pLfICr; PHPSESSID=m0iu9tgjmc7c94mf25u35gaer5
+            [PATH] => C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Git\cmd;D:\Projects\Web\bin\php\php7.2.18;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+            [SystemRoot] => C:\WINDOWS
+            [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+            [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+            [WINDIR] => C:\WINDOWS
+            [SERVER_SIGNATURE] => <address>Apache/2.4.39 (Win64) PHP/7.3.5 Server at localhost Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.39 (Win64) PHP/7.3.5
+            [SERVER_NAME] => localhost
+            [SERVER_ADDR] => ::1
+            [SERVER_PORT] => 80
+            [REMOTE_ADDR] => ::1
+            [DOCUMENT_ROOT] => D:/Projects/Web/www
+            [REQUEST_SCHEME] => http
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => D:/Projects/Web/www
+            [SERVER_ADMIN] => wampserver@wampserver.invalid
+            [SCRIPT_FILENAME] => D:/Projects/Web/www/PRO1/Model/AJAX/Login.php
+            [REMOTE_PORT] => 51918
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => POST
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /PRO1/Model/AJAX/Login.php
+            [SCRIPT_NAME] => /PRO1/Model/AJAX/Login.php
+            [PHP_SELF] => /PRO1/Model/AJAX/Login.php
+            [REQUEST_TIME_FLOAT] => 1576718162.796
+            [REQUEST_TIME] => 1576718162
+        )
+
+    [_ENV] => Array
+        (
+        )
+
+    [_REQUEST] => Array
+        (
+            [Login] => karry2811
+            [Password] => SonViet@0104
+            [Action] => Login
+            [SavePortal] => on
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [Core] => Core\Core Object
+        (
+        )
+
+    [LoginHandler] => Model\User Object
+        (
+            [Database:Model\User:private] => Core\Database Object
+                (
+                    [ImagesRoot] => D:/Projects/Web/www/PRO1/Themes/Images
+                    [DocumentRoot] => D:/Projects/Web/www/PRO1
+                    [WebImagesRoot] => http://localhost/PRO1/Themes/Images
+                    [ProductPerPage] => 9
+                    [WebDocumentRoot] => http://localhost/PRO1/
+                    [NewProductsCount] => 6
+                    [DealProductsCount] => 4
+                    [CategoryHomeCount] => 4
+                )
+
+            [ImagesRoot] => D:/Projects/Web/www/PRO1/Themes/Images
+            [DocumentRoot] => D:/Projects/Web/www/PRO1
+            [WebImagesRoot] => http://localhost/PRO1/Themes/Images
+            [ProductPerPage] => 9
+            [WebDocumentRoot] => http://localhost/PRO1/
+            [NewProductsCount] => 6
+            [DealProductsCount] => 4
+            [CategoryHomeCount] => 4
+        )
+
+    [_SESSION] => Array
+        (
+            [Cart] => {"CartList":{"106":{"TotalPrice":45000,"PricePerUnit":"45000","ProductUnit":"1"}},"CartInfo":{"TotalPrice":45000,"TotalPriceAfterDiscount":45000}}
+        )
+
+    [GLOBALS] => Array
+        (
+            [_GET] => Array
+                (
+                )
+
+            [_POST] => Array
+                (
+                    [Login] => karry2811
+                    [Password] => SonViet@0104
+                    [Action] => Login
+                    [SavePortal] => on
+                )
+
+            [_COOKIE] => Array
+                (
+                    [Webstorm-8c32df20] => dc7bbcf7-79cb-434b-a2b8-c4c31280e085
+                    [XDEBUG_SESSION] => XDEBUG_ECLIPSE
+                    [uchome_auth] => 2488Pg5d5K8X7rHZoBVoe5aRWZT/RPfYIhLo1RDtNb0g58Rx7dLUqCV+byU3gXsuXeHyI9W/aGDHF0pLfICr
+                    [PHPSESSID] => m0iu9tgjmc7c94mf25u35gaer5
+                )
+
+            [_SERVER] => Array
+                (
+                    [HTTP_HOST] => localhost
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 449
+                    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+                    [HTTP_ORIGIN] => http://localhost
+                    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+                    [HTTP_DNT] => 1
+                    [CONTENT_TYPE] => multipart/form-data; boundary=----WebKitFormBoundaryeglDkB38HfArfFBg
+                    [HTTP_SEC_FETCH_SITE] => same-origin
+                    [HTTP_SEC_FETCH_MODE] => cors
+                    [HTTP_REFERER] => http://localhost/PRO1/?QGPage=Login
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7
+                    [HTTP_COOKIE] => Webstorm-8c32df20=dc7bbcf7-79cb-434b-a2b8-c4c31280e085; XDEBUG_SESSION=XDEBUG_ECLIPSE; uchome_auth=2488Pg5d5K8X7rHZoBVoe5aRWZT%2FRPfYIhLo1RDtNb0g58Rx7dLUqCV%2BbyU3gXsuXeHyI9W%2FaGDHF0pLfICr; PHPSESSID=m0iu9tgjmc7c94mf25u35gaer5
+                    [PATH] => C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Git\cmd;D:\Projects\Web\bin\php\php7.2.18;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+                    [SystemRoot] => C:\WINDOWS
+                    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+                    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                    [WINDIR] => C:\WINDOWS
+                    [SERVER_SIGNATURE] => <address>Apache/2.4.39 (Win64) PHP/7.3.5 Server at localhost Port 80</address>
+
+                    [SERVER_SOFTWARE] => Apache/2.4.39 (Win64) PHP/7.3.5
+                    [SERVER_NAME] => localhost
+                    [SERVER_ADDR] => ::1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => ::1
+                    [DOCUMENT_ROOT] => D:/Projects/Web/www
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => D:/Projects/Web/www
+                    [SERVER_ADMIN] => wampserver@wampserver.invalid
+                    [SCRIPT_FILENAME] => D:/Projects/Web/www/PRO1/Model/AJAX/Login.php
+                    [REMOTE_PORT] => 51918
+                    [GATEWAY_INTERFACE] => CGI/1.1
+                    [SERVER_PROTOCOL] => HTTP/1.1
+                    [REQUEST_METHOD] => POST
+                    [QUERY_STRING] => 
+                    [REQUEST_URI] => /PRO1/Model/AJAX/Login.php
+                    [SCRIPT_NAME] => /PRO1/Model/AJAX/Login.php
+                    [PHP_SELF] => /PRO1/Model/AJAX/Login.php
+                    [REQUEST_TIME_FLOAT] => 1576718162.796
+                    [REQUEST_TIME] => 1576718162
+                )
+
+            [_ENV] => Array
+                (
+                )
+
+            [_REQUEST] => Array
+                (
+                    [Login] => karry2811
+                    [Password] => SonViet@0104
+                    [Action] => Login
+                    [SavePortal] => on
+                )
+
+            [_FILES] => Array
+                (
+                )
+
+            [Core] => Core\Core Object
+                (
+                )
+
+            [LoginHandler] => Model\User Object
+                (
+                    [Database:Model\User:private] => Core\Database Object
+                        (
+                            [ImagesRoot] => D:/Projects/Web/www/PRO1/Themes/Images
+                            [DocumentRoot] => D:/Projects/Web/www/PRO1
+                            [WebImagesRoot] => http://localhost/PRO1/Themes/Images
+                            [ProductPerPage] => 9
+                            [WebDocumentRoot] => http://localhost/PRO1/
+                            [NewProductsCount] => 6
+                            [DealProductsCount] => 4
+                            [CategoryHomeCount] => 4
+                        )
+
+                    [ImagesRoot] => D:/Projects/Web/www/PRO1/Themes/Images
+                    [DocumentRoot] => D:/Projects/Web/www/PRO1
+                    [WebImagesRoot] => http://localhost/PRO1/Themes/Images
+                    [ProductPerPage] => 9
+                    [WebDocumentRoot] => http://localhost/PRO1/
+                    [NewProductsCount] => 6
+                    [DealProductsCount] => 4
+                    [CategoryHomeCount] => 4
+                )
+
+            [_SESSION] => Array
+                (
+                    [Cart] => {"CartList":{"106":{"TotalPrice":45000,"PricePerUnit":"45000","ProductUnit":"1"}},"CartInfo":{"TotalPrice":45000,"TotalPriceAfterDiscount":45000}}
+                )
+
+            [GLOBALS] => Array
+ *RECURSION*
+            [__composer_autoload_files] => Array
+                (
+                    [3f8bdd3b35094c73a26f0106e3c0f8b2] => 1
+                )
+
+        )
+
+    [__composer_autoload_files] => Array
+        (
+            [3f8bdd3b35094c73a26f0106e3c0f8b2] => 1
+        )
+
+)
